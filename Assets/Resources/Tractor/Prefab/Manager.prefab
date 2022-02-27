@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4706770970664227012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4706770970664227014}
+  - component: {fileID: 4706770970664227013}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4706770970664227014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4706770970664227012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4706770970664227013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4706770970664227012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e780b8d78b8482a91a320286566fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tractor: {fileID: 0}
+  engineChoice: {fileID: 0}
+  wheelChoice: {fileID: 0}
+  tailChoice: {fileID: 0}
+  engineCorrect: 0
+  tailCorrect: 0
+  processing: 0
+  textMeadow: {fileID: 0}
+  textProduct: {fileID: 0}
+  textProductCount: {fileID: 0}
+  textMaxCount: {fileID: 0}
+  fuelBar: {fileID: 0}
+  maxFuel: 0
+  progressBar: {fileID: 0}
+  maxDes: 0
+  iconProduct: {fileID: 0}
+  iconProductM: {fileID: 0}
+  areaIcon: {fileID: 0}
+  areaSIcon: {fileID: 21300000, guid: e1d28e6b54b0ba4449cbf48a1c6027d3, type: 3}
+  areaMIcon: {fileID: 21300000, guid: 705b7002434f5874e80e5dac0c2e4932, type: 3}
+  areaLIcon: {fileID: 21300000, guid: 02c110ac2f1851c47aff8884a90bc453, type: 3}
+  desAreaS: 60
+  desAreaM: 95
+  desAreaL: 155
+  areaS: {fileID: 0}
+  areaM: {fileID: 0}
+  areaL: {fileID: 0}
+  productRice: {fileID: 169515932699494062, guid: 7e6d051ba5e5342759911c6b9b040d3b,
+    type: 3}
+  productCorn: {fileID: 5719605613204210542, guid: 1bb4c7c6c03c74ba0bdde180456d7401,
+    type: 3}
+  productPotato: {fileID: 2050063762920245997, guid: ab0f863c310264e53ba9f18daf6cba7c,
+    type: 3}
+  productGrass: {fileID: 4931714233388089148, guid: 81336bffcb1594d9e93c18a2a69d2a25,
+    type: 3}
+  iconRice: {fileID: 21300000, guid: 2e3c20c2a720d044bb46c45489acf742, type: 3}
+  iconCorn: {fileID: 21300000, guid: 4183a74a1662ea04c84c6178b0347dec, type: 3}
+  iconPotato: {fileID: 21300000, guid: 4d8374903a0131946b9a8dfa434c1535, type: 3}
+  iconGrass: {fileID: 21300000, guid: 6f47c055eca323c4fa12e36403dffbbc, type: 3}
+  spawnAreaS: {fileID: 0}
+  spawnAreaM: {fileID: 0}
+  spawnAreaL: {fileID: 0}
+  point: []
+  maxCount: 0
+  cam1: {fileID: 0}
+  cam2: {fileID: 0}
+  camFollow: 0
+  result: {fileID: 0}
+  resultSeccess: {fileID: 0}
+  resultFail1: {fileID: 0}
+  resultFail2: {fileID: 0}
+  resultFail3: {fileID: 0}
+  resultFail4: {fileID: 0}
+  resultFail5: {fileID: 0}
+  confirm: {fileID: 0}
+  textEngie: {fileID: 0}
+  textTail: {fileID: 0}
+  startEngine: {fileID: 0}
+  startTail: {fileID: 0}
+  canvas2: {fileID: 0}
